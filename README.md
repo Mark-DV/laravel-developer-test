@@ -1,4 +1,4 @@
-# Laravel Developer Test - Project README
+# Laravel Developer Test - Home Task README
 
 This project leverages Laravel for backend functionality and employs PHPUnit for testing, while integrating Vue3 and TailwindCSS for frontend design. The main features include:
 
