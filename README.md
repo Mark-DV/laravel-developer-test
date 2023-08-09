@@ -26,11 +26,15 @@ The application incorporates email notifications, which are triggered when new c
 ### Testing
 PHPUnit is used for testing purposes, with the project configured to work with Mailtrap for email-related tests.
 
-### Instructions for Running:
-1. Execute the following commands:
-2. Create a seeder using: `php artisan make:seeder DatabaseSeeder`
-3. Seed the database using: `php artisan db:seed --class=DatabaseSeeder`
-4. Establish a storage link with: `php artisan storage:link`
-5. Launch the project by executing `php artisan serve`.
+### Running Instructions:
+1. Begin by executing the subsequent commands:
+2. Create a seeder via: `php artisan make:seeder DatabaseSeeder`
+3. Populate the database using: `php artisan db:seed --class=DatabaseSeeder`
+4. Establish a storage link using: `php artisan storage:link`
+5. Install node modules with: `npm install`
+6. Launch the project with: `php artisan serve`
+7. Activate Vue with: `npm run dev`
+
+View the project by navigating to http://127.0.0.1:8000 in your web browser.
 
 For questions or assistance, contact `markdv39@gmail.com`.
